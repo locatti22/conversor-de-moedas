@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Conversor de moedas</title>
+</head>
+
+<body>
+
+    <img class="logo" src="./assets/logo.gif" alt="logo-conversor">
+
+    <main class="painel">
+
+        <label>
+            Converter <b>de</b> <br>
+            <select class="selection">
+                <option value="real">R$ Real Brasileiro</option>
+            </select>
+        </label>
+
+        <br>
+
+        <label>
+            Converter <b>para</b> <br>
+            <select class="selected">
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+            </select>
+        </label>
+
+        <br>
+
+        <label>
+            <b>Valor</b> <br>
+            <input type="number" class="input-value" placeholder="R$">
+        </label>
+
+        <br>
+
+        <button class="convert-button">Converter</button>
+
+        <section>
+            <div class="box">
+                <img src="./assets/brasil 2.png" alt="logo-converter">
+                <p class="currency">Real</p>
+                <p class="value convert">R$ 0,00</p>
+            </div>
+
+            <img class="arrow" src="./assets/Vector.png" alt="seta">
+
+            <div class="box">
+                <img class="other-currency-photo" src="./assets/estados-unidos (1) 1.png" alt="logo-convertida">
+                <p class="currency currency-name">Dólar Americano</p>
+                <p class="value  converted">US$ 0.00</p>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
